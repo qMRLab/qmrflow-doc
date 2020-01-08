@@ -1,20 +1,28 @@
-.. qMRFlow documentation master file, created by
-   sphinx-quickstart on Wed Jan  8 12:33:13 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to qMRFlow's documentation!
-===================================
+Welcome to the qMRFlow user documentation!
+=============================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Install
 
+   installation/before_install
+   installation/install
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Pipeline
 
-Indices and tables
-==================
+   pipeline/steps
+   pipeline/input
+   pipeline/options
+   pipeline/launch
+   pipeline/results
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+    :maxdepth: 1
+    :caption: Reference
+
+    reference/changelog
+    reference/github
+    reference/license
+    reference/references
