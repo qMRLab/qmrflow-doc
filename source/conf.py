@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'TractoFlow-documentation'
-copyright = u'2019, SCIL'
-author = u'SCIL'
+project = u'qMRFlow-documentation'
+copyright = u'2020, qMRLab'
+author = u'qMRLab'
 
 # The short X.Y version
 version = u''
@@ -104,7 +104,7 @@ html_theme_options = {
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'TractoFlow-documentationdoc'
+htmlhelp_basename = 'qMRFlow-documentationdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -131,7 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'TractoFlow-documentation.tex', u'TractoFlow-documentation Documentation',
+    (master_doc, 'qMRFlow-documentation.tex', u'qMRFlow-documentation Documentation',
      u'SCIL', 'manual'),
 ]
 
@@ -141,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'tractoflow-documentation', u'TractoFlow-documentation Documentation',
+    (master_doc, 'qmrflow-documentation', u'qmrflow-documentation Documentation',
      [author], 1)
 ]
 
@@ -152,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'TractoFlow-documentation', u'TractoFlow-documentation Documentation',
-     author, 'TractoFlow-documentation', 'One line description of project.',
+    (master_doc, 'qMRFlow-documentation', u'qMRFlow-documentation Documentation',
+     author, 'qMRFlow-documentation', 'One line description of project.',
      'Miscellaneous'),
 ]
 
